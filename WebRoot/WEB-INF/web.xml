@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <servlet>
+    <servlet-name>Diary</servlet-name>
+    <display-name>Get the diaries content</display-name>
+    <description>Get the diaries content</description>
+    <servlet-class>servlet.Diary</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Check</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Check</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DiarySave</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.DiarySave</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DiaryDelete</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.DiaryDelete</servlet-class>
+  </servlet>
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Diary</servlet-name>
+    <url-pattern>/Diary</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Check</servlet-name>
+    <url-pattern>/Check</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DiarySave</servlet-name>
+    <url-pattern>/DiarySave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DiaryDelete</servlet-name>
+    <url-pattern>/DiaryDelete</url-pattern>
+  </servlet-mapping>
+
+</web-app>
